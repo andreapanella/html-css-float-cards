@@ -24,8 +24,8 @@ h1 {
 }
 
 .introduction {
-    padding-top: 4rem;
-    padding-bottom: 1.5rem;
+    padding-top: 3.5rem;
+    padding-bottom: 2rem;
     text-align: center;
     padding-left: 6px;
     padding-right: 6px;
@@ -94,9 +94,9 @@ div.generalities span {
 
 
 
-.debug {
+/* .debug {
     border: 1px solid black;
-} 
+}  */
 
 
 
