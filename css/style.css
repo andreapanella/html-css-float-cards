@@ -12,6 +12,14 @@
     -profession: #D3D7C8;
 }
 
+body {
+    max-width: 1200px;
+    margin: auto;
+}
 
+
+.debug {
+    border: 1px solid black;
+} 
 /* Font */
 /* Slack-lato-400 */
