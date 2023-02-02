@@ -27,23 +27,21 @@ h1 {
     padding-top: 4rem;
     padding-bottom: 2rem;
     text-align: center;
-    padding-left: 15px;
-    padding-right: 15px;
-}
-
-.card-container::after {
-    content: "";
-    display: table;
-    clear: both;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 
-.card {
-    float: left;
-}
 
-.debug {
+
+
+
+
+/* .debug {
     border: 1px solid black;
-} 
+}  */
+
+
+
 /* Font */
 /* Slack-lato-400 */
