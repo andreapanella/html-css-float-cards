@@ -41,27 +41,31 @@ body{
 
 
 
-
+/* The whole container and the indtroduction */
 .main-container {
     max-width: 1200px;
     margin: 3rem auto;
+    text-align: center;
 }
-
-
-
 
 .introduction {
     padding-top: 3.5rem;
     padding-bottom: 2rem;
-    text-align: center;
-    padding-left: 6px;
-    padding-right: 6px;
 }
 
 
 
 
 /* Text characteristics */
+div.introduction-text:first-child{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+div.introduction-text:last-child {
+    text-align: center;
+}
+
 h1 {
     text-align: center;
     color: var(--h1);
@@ -111,8 +115,3 @@ img {
 div.generalities span {
     display: block;
 }
-
-
-
-Font */
-/* Slack-lato-400
