@@ -69,11 +69,11 @@ div.introduction-text:last-child {
 h1 {
     text-align: center;
     color: var(--h1);
+    font-size: 40px;
 }
 
 .name {
     color: #ffffff;
-    font-weight: 700;
 }
 
 .profession {
@@ -84,6 +84,9 @@ h1 {
     color: var(--e-mail);
 }
 
+h1, .name {
+    font-weight: 800;
+}
 
 
 
