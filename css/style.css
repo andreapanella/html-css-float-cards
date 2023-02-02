@@ -4,9 +4,9 @@
     box-sizing: border-box;
 }
 
-::root {
+:root {
     --bg: #ffffff;
-    --h1: #B8396A;
+    --h1: #B42C5B;
     --bg-cards: #0F0E17;
     --e-mail: #1F8BCC;
     --profession: #D3D7C8;
@@ -17,8 +17,10 @@
     margin: 3rem auto;
 }
 
+
 h1 {
     text-align: center;
+    color: var(--h1);
 }
 
 .introduction {
