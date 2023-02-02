@@ -31,6 +31,16 @@ h1 {
     padding-right: 15px;
 }
 
+.card-container::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+.card {
+    float: left;
+}
 
 .debug {
     border: 1px solid black;
