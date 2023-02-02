@@ -25,10 +25,10 @@ h1 {
 
 .introduction {
     padding-top: 4rem;
-    padding-bottom: 3rem;
+    padding-bottom: 1.5rem;
     text-align: center;
-    padding-left: 8px;
-    padding-right: 8px;
+    padding-left: 6px;
+    padding-right: 6px;
 }
 
 
@@ -39,14 +39,36 @@ h1 {
 }
 
 
-.card-container {
+.card-big-container {
     float: left;
     width: calc(100% / 3);
-    height: 150px;
+    height: 120px;
 }
 
 
+.card-small-container {
+    margin: 10px;
+    height: 100px;
+}
 
+.card-small-container::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+img {
+    display: block;
+    float: left;
+    height: 98px;
+}
+
+
+.generalities {
+    float: left;
+    padding-left: 1rem;
+    line-height: 2rem;
+}
 
 
 
