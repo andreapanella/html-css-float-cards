@@ -12,10 +12,11 @@
     -profession: #D3D7C8;
 }
 
-body {
+.main-container {
     max-width: 1200px;
     margin: auto;
 }
+
 
 
 .debug {
