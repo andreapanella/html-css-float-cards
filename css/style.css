@@ -1,16 +1,46 @@
+/* Reset of the browser's default styling values */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
+
+
+
+/* Some shortcuts */
 :root {
-    --bg: #ffffff;
     --h1: #B42C5B;
     --bg-cards: #0F0E17;
     --e-mail: #1F8BCC;
     --profession: #D3D7C8;
 }
+
+
+
+
+body{
+
+}
+
+
+
+
+/* Psuedo selectors */
+.card-row::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.card-small-container::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+
 
 .main-container {
     max-width: 1200px;
@@ -18,10 +48,7 @@
 }
 
 
-h1 {
-    text-align: center;
-    color: var(--h1);
-}
+
 
 .introduction {
     padding-top: 3.5rem;
@@ -32,19 +59,36 @@ h1 {
 }
 
 
-.card-row::after {
-    content: "";
-    display: table;
-    clear: both;
+
+
+/* Text characteristics */
+h1 {
+    text-align: center;
+    color: var(--h1);
+}
+
+.name {
+    color: #ffffff;
+    font-weight: 700;
+}
+
+.profession {
+    color: var(--profession);
+}
+
+.e-mail {
+    color: var(--e-mail);
 }
 
 
+
+
+/* The single profile's characteristics */
 .card-big-container {
     float: left;
     width: calc(100% / 3);
     height: 120px;
 }
-
 
 .card-small-container {
     margin: 10px;
@@ -52,18 +96,11 @@ h1 {
     background-color: var(--bg-cards);
 }
 
-.card-small-container::after {
-    content: "";
-    display: table;
-    clear: both;
-}
-
 img {
     display: block;
     float: left;
     height: 98px;
 }
-
 
 .generalities {
     float: left;
@@ -74,29 +111,6 @@ img {
 div.generalities span {
     display: block;
 }
-
-
-.name {
-    color: #ffffff;
-    font-weight: 700;
-}
-
-
-.profession {
-    color: var(--profession);
-}
-
-
-.e-mail {
-    color: var(--e-mail);
-}
-
-
-
-
-/* .debug {
-    border: 1px solid black;
-}  */
 
 
 
