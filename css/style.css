@@ -25,10 +25,24 @@ h1 {
 
 .introduction {
     padding-top: 4rem;
-    padding-bottom: 2rem;
+    padding-bottom: 3rem;
     text-align: center;
-    padding-left: 10px;
-    padding-right: 10px;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+
+.card-row::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+.card-container {
+    float: left;
+    width: calc(100% / 3);
+    height: 150px;
 }
 
 
@@ -36,12 +50,11 @@ h1 {
 
 
 
-
-/* .debug {
+.debug {
     border: 1px solid black;
-}  */
+} 
 
 
 
-/* Font */
-/* Slack-lato-400 */
+Font */
+/* Slack-lato-400
