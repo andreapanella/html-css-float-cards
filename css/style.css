@@ -49,6 +49,7 @@ h1 {
 .card-small-container {
     margin: 10px;
     height: 100px;
+    background-color: var(--bg-cards);
 }
 
 .card-small-container::after {
@@ -69,6 +70,27 @@ img {
     padding-left: 1rem;
     line-height: 2rem;
 }
+
+div.generalities span {
+    display: block;
+}
+
+
+.name {
+    color: #ffffff;
+    font-weight: 700;
+}
+
+
+.profession {
+    color: var(--profession);
+}
+
+
+.e-mail {
+    color: var(--e-mail);
+}
+
 
 
 
