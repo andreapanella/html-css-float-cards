@@ -3,3 +3,15 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+::root {
+    --bg: #ffffff;
+    --h1: #B8396A;
+    --bg-cards: #0F0E17;
+    --e-mail: #1F8BCC;
+    -profession: #D3D7C8;
+}
+
+
+/* Font */
+/* Slack-lato-400 */
